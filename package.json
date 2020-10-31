@@ -1,8 +1,9 @@
 {
   "name": "jacobs-alumni-style",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Style Elements for Jacobs Alumni Portal and Website",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": "git@github.com:JacobsAlumni/jacobs-alumni-style.git",
   "author": "Tom Wiesing <tkw01536@gmail.com>",
   "license": "GPL3",

@@ -9,12 +9,25 @@ require("jacobs-alumni-style");
 
 In [NextJS](https://nextjs.org/) it can instead be used like:
 
-```javascript
-import globalInit from "jacobs-alumni-style/src/style.mjs";
+```typescript
+// in _app.js / _app.tsx
 import "jacobs-alumni-style/src/style.scss";
+import globalInit from "jacobs-alumni-style/src/style.mjs";
 
-// somewhere in the clientSide code
-globalInit();
+// ...
+export default class App extends NextApp {
+    componentDidMount() {
+        globalInit();
+    }
+    render() {
+        // ...
+    }
+}
+
+
+// if you're using typescript, you also want to use this in next-env.d.ts:
+
+/// <reference types="jacobs-alumni-style" />
 ```
 
 This will add both required JavaScript and CSS to the page. 
