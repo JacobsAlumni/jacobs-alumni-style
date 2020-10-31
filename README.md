@@ -10,8 +10,11 @@ require("jacobs-alumni-style");
 In [NextJS](https://nextjs.org/) it can instead be used like:
 
 ```javascript
-import "jacobs-alumni-style/src/style.mjs";
+import globalInit from "jacobs-alumni-style/src/style.mjs";
 import "jacobs-alumni-style/src/style.scss";
+
+// somewhere in the clientSide code
+globalInit();
 ```
 
 This will add both required JavaScript and CSS to the page. 

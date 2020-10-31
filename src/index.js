@@ -1,2 +1,3 @@
-import "./style.mjs";
+import globalInit from "./style.mjs";
 import "./style.scss";
+globalInit();
