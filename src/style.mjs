@@ -1,5 +1,5 @@
 import UIkit from 'uikit';
-import Icons from 'uikit/dist/js/uikit-icons';
+import Icons from 'uikit/dist/js/uikit-icons.js';
 
 let didInitalize = false;
 export default function globalInit() {
