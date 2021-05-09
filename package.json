@@ -9,6 +9,6 @@
   "license": "GPL3",
   "private": true,
   "dependencies": {
-    "uikit": "^3.3.7"
+    "uikit": "^3.6.21"
   }
 }
